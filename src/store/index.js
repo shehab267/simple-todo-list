@@ -9,6 +9,7 @@ export default createStore({
       state.todos.push(todo);
     },
   },
+  
   actions: {
     addTodo({ commit }, todo) {
       commit("addTodo", todo);
